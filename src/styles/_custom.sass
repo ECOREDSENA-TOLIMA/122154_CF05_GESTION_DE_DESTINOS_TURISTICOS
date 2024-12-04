@@ -2,17 +2,193 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 75%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: rotacion1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 38%
+    right: 17%
 
+@keyframes rotacion1 
+  from 
+    transform: rotate(0deg)  
+  to 
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #12263F
+
+.boton *, .boton--sm *
+  color: #FFFFFF
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img-01.png") !important
+
+.introduccion
+  .cajon-b.color-primario:before
+    background-color: #FEEBCF
+    width: 50%
+    height: 25%
+
+  .cajon.cajon.color-secundario
+    background-color: #FFE9DF
+
+.tema1
+  .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+    display: flex 
+
+  .tarjeta--verde
+    background-color: #D1E1DD
+
+  .acordion__activo
+    background-color: #FFE9DF
+  
+  .acordion__accion__btn--a
+    background-color: #09614D
+  
+  .acordion__accion__btn--a i
+    color: #fff
+  
+  .acordion__accion__btn--b
+    background-color: #09614D
+  
+  .acordion__accion__btn--b i
+    color: #fff
+
+  .cajon.cajon.color-secundario
+    background-color: #FFE9DF
+
+  .tarjeta--BG10
+    background-image: url("../assets/curso/temas/BG10.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3rem !important
+    @media (max-width: $bp-max-sm)
+      margin-inline: -1.5rem !important
+
+  // pasosb
+  .pasos-b__header__item--before .pasos-b__header__item__dot 
+    border-color: #FECAB2
+    background-color: #FECAB2
+
+  .pasos-b__header__item--active .pasos-b__header__item__line-container:before
+    background-color: #09614D
+
+  .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+    background-color: #09614D
+
+  .pasos-b__header__item--before .pasos-b__header__item__line-container:before
+    background-color: #09614D
+
+  .pasos-b__header__item__dot i
+    color: #12263F
+
+  .pasos-b__header__btn--left, .pasos-b__header__btn--right
+    background-color: #09614D
+
+  .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+    color: #fff
+
+  .tarjeta.tarjeta--BG06
+    background-image: url("../assets/curso/temas/BG06.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3rem !important
+    @media (max-width: $bp-max-sm)
+      margin-inline: -1.5rem !important
+
+  //linea de tiempo C
+
+  .linea-tiempo-c.color-acento-botones.especial
+    .linea-tiempo-c__item--selected
+      .linea-tiempo-c__item__content
+        background-color: #FFF8E7 !important
+  .linea-tiempo-c__header__btn--right
+    background-color: #09614D
+  .linea-tiempo-c__header__btn--left
+    background-color: #09614D
+  .fa-angle-right
+    color: #fff
+  .fa-angle-left
+    color: #fff
+  .linea-tiempo-c__header__btn--left:hover, .linea-tiempo-c__header__btn--right:hover
+    border-color: #fff
+
+  .tabla-a thead
+    background-color: #FFCE73
+
+  //linea de tiempo d
+
+  .linea-tiempo-edit
+    .linea-tiempo-d__item__content
+      transition: all .3s linear
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: #09614D !important
+        color: white !important
+      .linea-tiempo-d__item__content
+        background-color: #FFE9DF !important
+
+  .tarjeta.tarjeta--gris
+    background-color: #D1E1DD
+
+.tema2
+  .cajon.cajon.color-secundario
+    background-color: #FFE9DF
+
+  .tarjeta.tarjeta--BG07
+    background-image: url("../assets/curso/temas/BG07.svg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
+  .tabla-a thead
+    background-color: #FFCE73
+
+  .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+    display: flex 
+
+  .cajon.cajon.color-primario
+    background-color: #FEF7EB
+
+.tema3
+  .cajon.cajon.color-secundario
+    background-color: #FFE9DF
+
+  .tarjeta.tarjeta--azul
+    background-color: #D1E1DD
+
+  .tarjeta.tarjeta--azul.acordion__activo
+    background-color: #FFE9DF
+
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--azul
+    background-color: #D1E1DD
+
+  .acordion__accion__btn--b
+    background-color: #09614D
+    color: #fff
+    border: none
+
+  .tarjeta.tarjeta--BG08
+    background-image: url("../assets/curso/temas/BG08.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3rem !important
+    @media (max-width: $bp-max-sm)
+      margin-inline: -1.5rem !important
+
+  .slyder__btn
+    background-color: #09614D
+    
+  .slyder__btn i
+    color: #fff

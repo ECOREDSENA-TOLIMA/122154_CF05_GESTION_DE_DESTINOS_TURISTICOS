@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
+    componenteFormativo: 'Estrategias de productos turísticos sostenibles',
+    descripcionCurso:
+      'Las estrategias que se requieren para identificar productos turísticos llevan a los interesados en el proceso de investigación al uso de herramientas en la elaboración de productos turísticos que propendan por un desarrollo sostenible resaltando factores ambientales, socioculturales y económicos que permitan satisfacer los visitantes con un conjunto de servicios y atractivos turísticos innovadores y únicos ofrecidos en paquetes turísticos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
