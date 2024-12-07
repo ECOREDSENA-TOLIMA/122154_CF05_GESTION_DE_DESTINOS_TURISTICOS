@@ -31,6 +31,18 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img-01.png") !important
 
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
 .introduccion
   .cajon-b.color-primario:before
     background-color: #FEEBCF
@@ -39,6 +51,13 @@
 
   .cajon.cajon.color-secundario
     background-color: #FFE9DF
+
+.tarjeta--tabla
+  background-color: #FEF7EB
+
+.tarjeta--tabla1
+  background-color: #FFE9DF
+
 
 .tema1
   .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
@@ -142,6 +161,10 @@
     background-color: #D1E1DD
 
 .tema2
+  // slyder f 
+  .fa-chevron-right, .fa-chevron-left
+    color: #09614D
+
   .cajon.cajon.color-secundario
     background-color: #FFE9DF
 
@@ -192,3 +215,170 @@
     
   .slyder__btn i
     color: #fff
+
+  //linea de tiempo d
+
+  .linea-tiempo-edit
+    .linea-tiempo-d__item__content
+      transition: all .3s linear
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: #09614D !important
+        color: white !important
+      .linea-tiempo-d__item__content
+        background-color: #FFE9DF !important
+
+  .tarjeta.tarjeta--gris
+    background-color: #D1E1DD
+
+  //linea de tiempo C
+
+  .linea-tiempo-c.color-acento-botones.especial
+    .linea-tiempo-c__item--selected
+      .linea-tiempo-c__item__content
+        background-color: #FFF8E7 !important
+  .linea-tiempo-c__header__btn--right
+    background-color: #09614D
+  .linea-tiempo-c__header__btn--left
+    background-color: #09614D
+  .fa-angle-right
+    color: #fff
+  .fa-angle-left
+    color: #fff
+  .linea-tiempo-c__header__btn--left:hover, .linea-tiempo-c__header__btn--right:hover
+    border-color: #fff
+
+  .tarjeta.tarjeta--BG06
+    background-image: url("../assets/curso/temas/BG06.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3rem !important
+    @media (max-width: $bp-max-sm)
+      margin-inline: -1.5rem !important
+
+  .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li, .lista-ul li ul li
+    display: flex 
+
+.tema4
+  // tabsC
+  .tabs-c__content-item
+    background-color: #FEEBCF
+  .tabs-c__tab
+    background-color: #D1E1DD
+  .tabs-c__tab--active
+    background-color: #fff
+  .tabs-b__tab--active:hover
+    background-color: #FEEBCF
+  .tabs-b__content-item
+    background-color: #FEEBCF
+  .tabs-b__tab
+    background-color: #D1E1DD
+  .tabs-b__tab--active
+    background-color: #FEEBCF
+  .tabs-c__header
+    margin-bottom: 0 !important
+  .tabs-c.color-acento-botones .tabs-c__tab--active
+    font-weight: 700
+
+.tema5
+  .tabs-a__tab
+    background-color: #DFECE9
+
+  .tabs-a__tab
+    padding: 15px 10px
+    width: 105%
+
+  .tarjeta.color-acento-botones--borde
+    background-color: #FFECDA
+    border: solid 4px #FFECDA
+
+  .cajon.cajon.color-primario
+    background-color: #FEF7EB
+  
+  //// Tarjetas --------------------------------------
+
+  .img90
+    width: 90px 
+
+  .img92
+    width: 90px 
+
+  .crd
+    &.brd--rad
+      border-radius: 20px 
+    &.crd--grayGrad
+      padding: 2rem
+      height: 100%
+      background-image: url('../assets/curso/temas/BG02.svg')
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      height: 100%
+      border-radius: 15px    
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+      &:hover      
+        background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)  
+        background-image: url('../assets/curso/temas/BG03.svg')
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+        .bottomCircle
+          &::before
+            background-color: #FFFF
+    &.crd--blue
+      background-color: #B1DBEA
+
+    &.crd--border
+      border: 4px solid $color-acento-botones
+      border-radius: 20px
+
+  .bottomCircle
+    position: relative
+    & > *
+      position: relative
+    &::before
+      content: ""
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+      width: 115px
+      height: 115px
+      background-color: #09614D
+      border-radius: 999px
+
+  .crd--avatarHorizontal
+    position: relative
+    padding-right: 12rem
+    & > *
+      position: relative
+    h5 
+      color: #7F4FC7
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: 0
+      width: calc( 100% - 60px)
+      height: 100%
+      background-color: #C5E5FE
+
+    @media (max-width: 1000px)
+      padding-right: 2rem
+
+  .crd--first, .crd--last
+    &::before 
+      background-color: #DDEDF8 !important
+
+  .crd--first
+    &::before 
+      border-top-left-radius: 30px
+  .crd--last
+    &::before 
+      border-bottom-left-radius: 30px
+
+  .cajon.cajon.color-secundario
+    background-color: #FFE9DF

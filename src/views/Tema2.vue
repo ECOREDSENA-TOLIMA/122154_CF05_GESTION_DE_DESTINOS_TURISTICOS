@@ -40,17 +40,59 @@
         .tarjeta.tarjeta--BG07.p-4
           .row.justify-content-center.mb-3
             .col-lg-5.col-sm-4.col-6
-              img(src='@/assets/curso/temas/tema2/img-03.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img-04.svg' alt='AvatarTop')
           h4.text-center Análisis del entorno
           p.text-center Se debe examinar el mercado objetivo y las tendencias del sector, identificando oportunidades y amenazas. También es necesario evaluar a la competencia directa e indirecta, así como el contexto socioeconómico del entorno.
 
         .tarjeta.tarjeta--BG07.p-4
           .row.justify-content-center.mb-3
             .col-lg-5.col-sm-4.col-6
-              img(src='@/assets/curso/temas/tema2/img-03.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img-05.svg' alt='AvatarTop')
           h4.text-center Evaluación de la demanda
           p.text-center Es importante analizar la demanda actual y potencial mediante estadísticas y patrones de comportamiento turistico. Asimismo, debe identificarse las preferencias, estacionalidad y segmentación del público.
-      
+        
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/img-06.svg' alt='AvatarTop')
+          h4.text-center Análisis de factores internos
+          p.text-center Debe revisarse la calidad y atractivo de los componentes del producto, tales como la infraestructura y los servicios. Además, se debe determinar la capacidad de innovación para mejorar la experiencia del turista.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/img-07.svg' alt='AvatarTop')
+          h4.text-center Impacto económico y financiero
+          p.text-center Es necesario calcular la rentabilidad del producto, considerando ingresos y costos. También debe proyectarse la sostenibilidad financiera a largo plazo.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/img-08.svg' alt='AvatarTop')
+          h4.text-center Sostenibilidad ambiental y social
+          p.text-center Se debe valorar el cumplimiento de prácticas responsables y su impacto en la comunidad local. Igualmente, es importante analizar los beneficios sociales, como el empleo y la inclusión.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/img-09.svg' alt='AvatarTop')
+          h4.text-center Satisfacción del cliente
+          p.text-center Se recomienda realizar estudios sobre la experiencia del usuario para identificar posibles mejoras. También debe medirse la intención de recomendación (Net Promoter Score).
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/img-010.svg' alt='AvatarTop')
+          h4.text-center Análisis FODA y <em>Benchmarking</em>
+          p.text-center Es esencial identificar las fortalezas, debilidades, oportunidades y amenazas del producto. Además, se debe realizar una comparación con referentes del sector para incorporar mejores prácticas.
+
+        .tarjeta.tarjeta--BG07.p-4
+          .row.justify-content-center.mb-3
+            .col-lg-5.col-sm-4.col-6
+              img(src='@/assets/curso/temas/tema2/img-011.svg' alt='AvatarTop')
+          h4.text-center Recomendaciones y plan de acción
+          p.text-center Con base en los resultados, se debe desarrollar un conjunto de estrategias que fortalezcan el producto, minimicen riesgos y aprovechen oportunidades.
+   
     p.mb-5 Este enfoque integral asegura una evaluación completa, que fomente la toma de decisiones estratégicas para el desarrollo sostenible y exitoso del producto turístico.
 
     Separador
@@ -69,9 +111,9 @@
           table
             thead
               tr
-                th(style="width:20%") Tipo
-                th(style="width:20%") Objetivos
-                th(style="width:20%") Aspectos a considerar
+                th(style="width:30%") Tipo
+                th(style="width:30%") Objetivos
+                th(style="width:50%") Aspectos a considerar
 
             tbody
               tr(style="background-color: #F6F6F6")

@@ -180,6 +180,7 @@
           p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Factores y dimensión de turismo y sostenibilidad. Programa de la Naciones Unidas para el Medio Ambiente</i>
         figure.mb-3
           img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema1/img-010.svg', alt='En la figura 1 se presenta un diagrama de sostenibilidad, mostrando tres dimensiones: medioambiental (eficacia de recursos, pureza medioambiental, diversidad), económico (viabilidad económica, prosperidad local), y social (calidad del empleo, equidad social, control social), con factores específicos en cada dimensión.')
+          img.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img-010v2.svg', alt='En la figura 1 se presenta un diagrama de sostenibilidad, mostrando tres dimensiones: medioambiental (eficacia de recursos, pureza medioambiental, diversidad), económico (viabilidad económica, prosperidad local), y social (calidad del empleo, equidad social, control social), con factores específicos en cada dimensión.') 
           figcaption Nota . ResearchGate. (s.f.). Maximiliano E. Korstanje.
     
     p.mb-5 Para implementar un producto turístico sostenible, es fundamental considerar prácticas que respeten el entorno natural, cultural y social del destino. A continuación, se presentan los elementos clave de sostenibilidad que deben integrarse en el diseño del producto turístico, abarcando la conservación del medio ambiente, el apoyo a la economía local, el respeto cultural, y la educación de los turistas sobre prácticas responsables:
@@ -301,9 +302,10 @@
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-10(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Agenda 2030 para el Desarrollo Sostenible</i>
+          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Agenda 2030 para el Desarrollo Sostenible</i>
         figure.mb-3
-          img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema1/img-017.png', alt='En la figura 1 se presenta un diagrama de sostenibilidad, mostrando tres dimensiones: medioambiental (eficacia de recursos, pureza medioambiental, diversidad), económico (viabilidad económica, prosperidad local), y social (calidad del empleo, equidad social, control social), con factores específicos en cada dimensión.')
+          img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema1/img-017.png', alt='En la figura 2 se presenta la Agenda 2030 para el Desarrollo Sostenible, que busca erradicar la pobreza, proteger el planeta y asegurar la prosperidad para todos, mediante 17 Objetivos de Desarrollo Sostenible (ODS). Estos objetivos abarcan áreas clave como la igualdad de género, la educación, la salud, el trabajo decente, el acceso a agua limpia, la acción por el clima y la paz, promoviendo un desarrollo económico, social y ambiental inclusivo y sostenible, con el compromiso de no dejar a nadie atrás.')
+          img.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img-017v2.svg', alt='En la figura 2 se presenta la Agenda 2030 para el Desarrollo Sostenible, que busca erradicar la pobreza, proteger el planeta y asegurar la prosperidad para todos, mediante 17 Objetivos de Desarrollo Sostenible (ODS). Estos objetivos abarcan áreas clave como la igualdad de género, la educación, la salud, el trabajo decente, el acceso a agua limpia, la acción por el clima y la paz, promoviendo un desarrollo económico, social y ambiental inclusivo y sostenible, con el compromiso de no dejar a nadie atrás.') 
           figcaption Nota. Tomado de Naciones Unidas (2015). Objetivos de Desarrollo Sostenible.
 
     p.mb-5 Algunos de los ODS más relevantes para el diseño de productos turísticos incluyen:
@@ -460,13 +462,19 @@
 
     p.mb-5 Al implementar prácticas sostenibles y respetuosas con el medio ambiente, se busca impactar positivamente a las comunidades locales, empoderándolas para que formen parte activa del desarrollo turístico. Así, Colombia se consolida como un destino versátil y vibrante, con un compromiso creciente hacia un turismo que respeta y preserva su riqueza natural y cultural para futuras generaciones .
 
-    .row
-      .col-lg-4
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Producto_Turistico.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Anexo. Producto turístico
+    .tarjeta.color-acento-contenido-a.p-3.mb-5(style="background-color: #FFE9DF")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/icono-011.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h4.mb-1 Producto Turístico
+              p Para profundizar sobre el tema, es importante conocer la estructuración y diseño del producto turístico, que se presenta a continuación
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Producto_Turistico.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
     Separador
 
@@ -482,16 +490,16 @@
             .col-lg-7.order-lg-1.order-2
               h4 Identificación del producto turístico primer paso para desarrollar el paquete
               ul.lista-ul
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Destino turístico:] playas, montañas, ciudades históricas.
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Actividades:] excursiones, deportes, turismo cultural o gastronómico.
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Servicios:] transporte, alojamiento, guías turísticos.
 
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -502,16 +510,16 @@
             .col-lg-7.order-lg-1.order-2
               h4 Investigación de mercado y definición del producto
               ul.lista-ul
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Identificación del tipo de turismo:] aventura, cultural, naturaleza, gastronómico, bienestar, entre otros.
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Análisis de la demanda:] evaluar el perfil de turistas interesados, nacionales e internacionales.
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Estudio de la competencia:] revisar paquetes similares y sus características. Selección del destino: priorizar lugares atractivos como Cartagena, Medellín, San Andrés o el Eje Cafetero.
 
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -522,16 +530,16 @@
             .col-lg-7.order-lg-1.order-2
               h4 Diseño del itinerario
               ul.lista-ul
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Duración del paquete:] establecer días y noches del viaje.
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Actividades y sitios de interés:] incluir visitas guiadas, experiencias únicas y tiempo libre para explorar
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Balance en las actividades:] garantizar un equilibrio entre ocio y actividades programadas.
 
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -542,16 +550,16 @@
             .col-lg-7.order-lg-1.order-2
               h4 Segmentación del mercado objetivo
               ul.lista-ul
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Demografía:] edad, género y nivel de ingresos.
                   
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Geografía:] enfoque nacional o internacional.
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Psicografía:] intereses, estilos de vida y preferencias (lujo, aventura, ecológico).
 
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -562,28 +570,28 @@
             .col-lg-7.order-lg-1.order-2
               h4 Selección de proveedores
               ul.lista-ul
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Alojamiento:] hoteles, eco-lodges, casas rurales, según el perfil del cliente
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Alimentación:] incluir opciones gastronómicas locales o en el alojamiento.
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Transporte:] aéreo, terrestre o marítimo, con traslados incluidos.
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Guías turísticos:] personal capacitado, preferiblemente bilingüe.
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Experiencias únicas:] actividades exclusivas como entradas a museos, parques o tours.
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0 
+                  i.lista-ul__vineta
                   p #[b Otros servicios:] seguros de viaje, asistencia médica y permisos.
 
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -594,20 +602,20 @@
             .col-lg-7.order-lg-1.order-2
               h4 Fijación de precios y costeo
               ul.lista-ul
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
-                  p #[b Costos fijos y variables:] transporte, alojamiento, comisiones y marketing.
+                li.mb-0
+                  i.lista-ul__vineta
+                  p #[b Costos fijos y variables:] transporte, alojamiento, comisiones y <em>marketing.</em>
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Margen de ganancia:] establecer una ganancia razonable y competitiva.
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Descuentos:] tarifas para grupos o temporadas bajas.
                 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Valor añadido:] incluir servicios exclusivos o personalizados.
 
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -618,12 +626,12 @@
             .col-lg-7.order-lg-1.order-2
               h4 Legislación y permisos
               ul.lista-ul
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Cumplir normativas legales:] inscripción en el Registro Nacional de Turismo (RNT), permisos de operación y seguros.
 
-                li.mb-3 
-                  i.lista-ul__vineta(style="font-size: 1.9rem")
+                li.mb-0
+                  i.lista-ul__vineta
                   p #[b Bioseguridad y seguros:] garantizar medidas de salud y protección para los turistas. 
 
             .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -637,10 +645,13 @@
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.6. <em>Marketing</em> del paquete turístico
 
-    p.mb-5 La promoción de paquetes turísticos es un proceso integral que abarca desde la creación de estrategias publicitarias hasta el monitoreo de resultados. Estas estrategias buscan garantizar experiencias memorables para los turistas y posicionar los productos turísticos como opciones atractivas y sostenibles. A continuación, se presentan los elementos clave para desarrollar un plan de marketing exitoso:
+    p.mb-5 La promoción de paquetes turísticos es un proceso integral que abarca desde la creación de estrategias publicitarias hasta el monitoreo de resultados. Estas estrategias buscan garantizar experiencias memorables para los turistas y posicionar los productos turísticos como opciones atractivas y sostenibles. A continuación, se presentan los elementos clave para desarrollar un plan de <em>marketing</em> exitoso:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 1. 
+          span <i>Elementos clave para desarrollar un plan de marketing exitoso</i>
         .tabla-a.clstabla.color-acento-contenido
           table
             thead
@@ -668,7 +679,7 @@
                 td <b>Adaptación a tendencias:</b> ajustar los paquetes según las nuevas preferencias y necesidades del mercado.
                 td 
 
-    p.mb-5 El éxito de un paquete turístico radica en su capacidad para captar la atención de los clientes potenciales y destacarse en un mercado altamente competitivo. Para lograrlo, es imprescindible desarrollar estrategias de marketing que combinen creatividad, impacto y efectividad. Estas estrategias no solo deben resaltar las características únicas del producto, sino también utilizar herramientas digitales, contenido visual atractivo y ofertas personalizadas para atraer y fidelizar a los turistas. A continuación, se detallan acciones clave para garantizar la visibilidad y el posicionamiento estratégico del paquete turístico:
+    p.mb-5 El éxito de un paquete turístico radica en su capacidad para captar la atención de los clientes potenciales y destacarse en un mercado altamente competitivo. Para lograrlo, es imprescindible desarrollar estrategias de <em>marketing</em> que combinen creatividad, impacto y efectividad. Estas estrategias no solo deben resaltar las características únicas del producto, sino también utilizar herramientas digitales, contenido visual atractivo y ofertas personalizadas para atraer y fidelizar a los turistas. A continuación, se detallan acciones clave para garantizar la visibilidad y el posicionamiento estratégico del paquete turístico:
 
     .col-xl-10.mx-auto.mb-5
       .d-flex.flex-wrap.align-items-center.mb-5
@@ -709,7 +720,7 @@
                   
                   li.mb-3 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
-                    p.mb-0 Implementar email marketing con ofertas personalizadas a través de newsletters.
+                    p.mb-0 Implementar email <em>marketing</em> con ofertas personalizadas a través de newsletters.
             
             .d-block(numero="4" titulo="Colaboraciones estratégicas") 
               .col-12.mb-3.mb-md-0

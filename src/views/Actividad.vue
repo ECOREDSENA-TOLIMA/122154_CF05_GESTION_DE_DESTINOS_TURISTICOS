@@ -13,300 +13,317 @@ export default {
   name: 'ActividadDidactica',
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Estrategias de productos turísticos sostenibles',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        '<b> Objetivo:</b> verificar el manejo de las temáticas identificación, diseño, marketing, paquetes, calidad y competitividad del producto turístico.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la capital de Francia?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'El turismo sostenible se enfoca en minimizar los impactos negativos y maximizar los beneficios para todas las partes interesadas.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'París', esCorrecta: true },
-            { id: 'b', texto: 'Londres', esCorrecta: false },
-            { id: 'c', texto: 'Berlín', esCorrecta: false },
-            { id: 'd', texto: 'Madrid', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! El turismo sostenible busca el equilibrio entre beneficios y reducción de impactos.',
+          mensaje_incorrecto:
+            'Incorrecto. El turismo sostenible tiene como objetivo minimizar impactos negativos y maximizar los beneficios.',
         },
         {
           id: 2,
-          texto: '¿Cuál es el planeta más cercano al Sol?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            'El diseño de un paquete turístico no incluye el análisis de la demanda y segmentación de mercado.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Venus', esCorrecta: false },
-            { id: 'b', texto: 'Mercurio', esCorrecta: true },
-            { id: 'c', texto: 'Tierra', esCorrecta: false },
-            { id: 'd', texto: 'Marte', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El análisis de demanda y segmentación es esencial en el diseño de paquetes turísticos.',
+          mensaje_incorrecto:
+            'No es correcto. Un paquete turístico debe considerar el análisis de demanda y segmentación.',
         },
         {
           id: 3,
-          texto: "¿Quién escribió 'Cien años de soledad'?",
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'El turismo regenerativo busca no solo minimizar el impacto, sino también restaurar ecosistemas y comunidades.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Gabriel García Márquez', esCorrecta: true },
-            { id: 'b', texto: 'Mario Vargas Llosa', esCorrecta: false },
-            { id: 'c', texto: 'Jorge Luis Borges', esCorrecta: false },
-            { id: 'd', texto: 'Pablo Neruda', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! El turismo regenerativo va más allá de la sostenibilidad al restaurar activamente el entorno.',
+          mensaje_incorrecto:
+            'Incorrecto. El turismo regenerativo tiene un enfoque restaurativo y de impacto positivo.',
         },
         {
           id: 4,
-          texto: '¿Cuál es el elemento químico con el símbolo H?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            'La capacidad de carga real de un destino turístico es igual a su capacidad física sin ajustes.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Helio', esCorrecta: false },
-            { id: 'b', texto: 'Hidrógeno', esCorrecta: true },
-            { id: 'c', texto: 'Hierro', esCorrecta: false },
-            { id: 'd', texto: 'Hafnio', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La capacidad de carga real ajusta la capacidad física según factores limitantes.',
+          mensaje_incorrecto:
+            'No es correcto. La capacidad de carga real considera limitaciones que afectan la capacidad física.',
         },
         {
           id: 5,
-          texto: '¿Cuál es el idioma más hablado del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'La sostenibilidad en el turismo implica únicamente la conservación del medio ambiente.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Inglés', esCorrecta: false },
-            { id: 'b', texto: 'Español', esCorrecta: false },
-            { id: 'c', texto: 'Chino mandarín', esCorrecta: true },
-            { id: 'd', texto: 'Árabe', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La sostenibilidad también abarca el impacto social y económico en comunidades.',
+          mensaje_incorrecto:
+            'No es correcto. La sostenibilidad en turismo considera factores ambientales, sociales y económicos.',
         },
         {
           id: 6,
-          texto: '¿En qué año llegó el hombre a la Luna?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            'La participación de la comunidad local es un aspecto clave para el éxito de los productos turísticos sostenibles.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1969', esCorrecta: true },
-            { id: 'b', texto: '1972', esCorrecta: false },
-            { id: 'c', texto: '1965', esCorrecta: false },
-            { id: 'd', texto: '1959', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! La inclusión de la comunidad es fundamental en productos turísticos sostenibles.',
+          mensaje_incorrecto:
+            'Incorrecto. La participación comunitaria es esencial en la sostenibilidad turística.',
         },
         {
           id: 7,
-          texto: '¿Qué río atraviesa la ciudad de Londres?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'El <em>marketing</em> de productos turísticos es innecesario en el contexto de destinos sostenibles.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Río Támesis', esCorrecta: true },
-            { id: 'b', texto: 'Río Danubio', esCorrecta: false },
-            { id: 'c', texto: 'Río Sena', esCorrecta: false },
-            { id: 'd', texto: 'Río Rin', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El <em>marketing</em> es importante para comunicar la propuesta de valor de destinos sostenibles.',
+          mensaje_incorrecto:
+            'No es correcto. El marketing es esencial para atraer y educar sobre destinos sostenibles.',
         },
         {
           id: 8,
-          texto: '¿Quién pintó la Mona Lisa?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            'El diseño de experiencias auténticas y personalizadas es una tendencia en el turismo actual.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Leonardo da Vinci', esCorrecta: true },
-            { id: 'b', texto: 'Pablo Picasso', esCorrecta: false },
-            { id: 'c', texto: 'Vincent van Gogh', esCorrecta: false },
-            { id: 'd', texto: 'Claude Monet', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! Las experiencias auténticas son cada vez más valoradas por los turistas.',
+          mensaje_incorrecto:
+            'Incorrecto. Las experiencias personalizadas y auténticas son tendencias en el turismo moderno.',
         },
         {
           id: 9,
-          texto: '¿Cuál es el océano más grande del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'Las entidades privadas no tienen ninguna influencia en la competitividad de un destino turístico.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Océano Atlántico', esCorrecta: false },
-            { id: 'b', texto: 'Océano Índico', esCorrecta: false },
-            { id: 'c', texto: 'Océano Pacífico', esCorrecta: true },
-            { id: 'd', texto: 'Océano Ártico', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Las entidades privadas juegan un papel fundamental en la oferta y calidad de servicios turísticos.',
+          mensaje_incorrecto:
+            'No es correcto. Las entidades privadas son clave para mejorar la competitividad del turismo.',
         },
         {
           id: 10,
-          texto: '¿Qué invento se le atribuye a Alexander Graham Bell?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            'El análisis de la capacidad de carga asegura que un destino no sea sobreexplotado por el turismo.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Teléfono', esCorrecta: true },
-            { id: 'b', texto: 'Telégrafo', esCorrecta: false },
-            { id: 'c', texto: 'Bombilla', esCorrecta: false },
-            { id: 'd', texto: 'Radio', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La capacidad de carga protege al destino de la sobreexplotación.',
+          mensaje_incorrecto:
+            'Incorrecto. El análisis de capacidad de carga ayuda a prevenir la sobreexplotación de un destino.',
         },
         {
           id: 11,
-          texto: '¿Qué continente alberga la selva amazónica?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'La valoración sostenible de un producto turístico considera el impacto ambiental y social de sus operaciones.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'África', esCorrecta: false },
-            { id: 'b', texto: 'Asia', esCorrecta: false },
-            { id: 'c', texto: 'América del Sur', esCorrecta: true },
-            { id: 'd', texto: 'Oceanía', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! La valoración sostenible analiza el impacto en el medio ambiente y la comunidad.',
+          mensaje_incorrecto:
+            'No es correcto. La valoración sostenible incluye tanto el impacto ambiental como el social.',
         },
         {
           id: 12,
-          texto: '¿Cuál es el animal más rápido del mundo?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            'Un producto turístico que involucra la biodiversidad debe tener en cuenta la protección de la flora y fauna locales.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Tigre', esCorrecta: false },
-            { id: 'b', texto: 'León', esCorrecta: false },
-            { id: 'c', texto: 'Guepardo', esCorrecta: true },
-            { id: 'd', texto: 'Jaguar', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La protección de la biodiversidad es crucial para productos turísticos en entornos naturales.',
+          mensaje_incorrecto:
+            'Incorrecto. La biodiversidad necesita protección en productos turísticos en áreas naturales.',
         },
         {
           id: 13,
           texto:
-            '¿Qué órgano es responsable de bombear la sangre en el cuerpo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'La calidad en el turismo se limita a la limpieza y mantenimiento de los sitios turísticos.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Cerebro', esCorrecta: false },
-            { id: 'b', texto: 'Pulmones', esCorrecta: false },
-            { id: 'c', texto: 'Corazón', esCorrecta: true },
-            { id: 'd', texto: 'Hígado', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La calidad turística incluye atención al cliente, seguridad, y otros factores.',
+          mensaje_incorrecto:
+            'No es correcto. La calidad turística abarca diversos aspectos, no solo la limpieza y mantenimiento.',
         },
         {
           id: 14,
-          texto: "¿Quién es el autor de 'Don Quijote de la Mancha'?",
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            'El ecoturismo es un tipo de turismo sostenible que contribuye a la conservación del entorno natural.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Miguel de Cervantes', esCorrecta: true },
-            { id: 'b', texto: 'Federico García Lorca', esCorrecta: false },
-            { id: 'c', texto: 'Lope de Vega', esCorrecta: false },
-            { id: 'd', texto: 'Pedro Calderón de la Barca', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! El ecoturismo promueve la conservación del ambiente natural.',
+          mensaje_incorrecto:
+            'Incorrecto. El ecoturismo tiene como base la conservación del entorno natural.',
         },
         {
           id: 15,
-          texto: '¿Qué gas utilizan las plantas durante la fotosíntesis?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'El turismo masivo favorece la sostenibilidad de los destinos turísticos.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Oxígeno', esCorrecta: false },
-            { id: 'b', texto: 'Dióxido de carbono', esCorrecta: true },
-            { id: 'c', texto: 'Nitrógeno', esCorrecta: false },
-            { id: 'd', texto: 'Hidrógeno', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El turismo masivo suele afectar negativamente la sostenibilidad de los destinos.',
+          mensaje_incorrecto:
+            'No es correcto. El turismo masivo puede generar impactos negativos en la sostenibilidad.',
         },
         {
           id: 16,
-          texto: '¿Quién fue el primer presidente de los Estados Unidos?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            'La diversificación de actividades en un destino turístico ayuda a reducir la dependencia de una temporada específica.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Thomas Jefferson', esCorrecta: false },
-            { id: 'b', texto: 'George Washington', esCorrecta: true },
-            { id: 'c', texto: 'Abraham Lincoln', esCorrecta: false },
-            { id: 'd', texto: 'John Adams', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La diversificación permite un flujo turístico más estable durante todo el año.',
+          mensaje_incorrecto:
+            'Incorrecto. Diversificar actividades ayuda a que el turismo no dependa de una sola temporada.',
         },
         {
           id: 17,
-          texto: '¿Qué país tiene el mayor número de habitantes?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'Las prácticas de turismo responsable promueven el respeto a las normas locales y la reducción del uso de plásticos.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'India', esCorrecta: false },
-            { id: 'b', texto: 'Estados Unidos', esCorrecta: false },
-            { id: 'c', texto: 'China', esCorrecta: true },
-            { id: 'd', texto: 'Rusia', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! El turismo responsable fomenta prácticas sostenibles como la reducción de plásticos.',
+          mensaje_incorrecto:
+            'Incorrecto. El turismo responsable impulsa prácticas de respeto y sostenibilidad ambiental.',
         },
         {
           id: 18,
-          texto: '¿Qué es el fenómeno de la refracción?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            'El enfoque de turismo regenerativo no incluye la educación ambiental de los turistas.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'La dispersión de la luz', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'El cambio de dirección de la luz',
-              esCorrecta: true,
-            },
-            { id: 'c', texto: 'La absorción de la luz', esCorrecta: false },
-            { id: 'd', texto: 'La emisión de luz', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! La educación ambiental es parte del turismo regenerativo para generar conciencia.',
+          mensaje_incorrecto:
+            'No es correcto. El turismo regenerativo incluye educar a los turistas sobre la importancia ambiental.',
         },
         {
           id: 19,
-          texto: '¿Cuál es el símbolo químico del oro?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'Los factores de valoración de un producto turístico incluyen la funcionalidad, experiencia, economía y sostenibilidad.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Ag', esCorrecta: false },
-            { id: 'b', texto: 'Au', esCorrecta: true },
-            { id: 'c', texto: 'Fe', esCorrecta: false },
-            { id: 'd', texto: 'Cu', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Estas valoraciones son esenciales para evaluar un producto turístico integralmente.',
+          mensaje_incorrecto:
+            'Incorrecto. La valoración de un producto turístico incluye aspectos funcionales, experienciales y sostenibles.',
         },
         {
           id: 20,
-          texto: '¿En qué año comenzó la Segunda Guerra Mundial?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            'En Colombia, el turismo comunitario es promovido para que las comunidades participen activamente en la oferta turística.',
+          imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1914', esCorrecta: false },
-            { id: 'b', texto: '1939', esCorrecta: true },
-            { id: 'c', texto: '1945', esCorrecta: false },
-            { id: 'd', texto: '1929', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! El turismo comunitario permite la participación activa de las comunidades locales.',
+          mensaje_incorrecto:
+            'Incorrecto. El turismo comunitario busca integrar a las comunidades en la oferta turística del destino.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
