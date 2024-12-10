@@ -18,11 +18,11 @@
       .col-lg-10.col-12.col-md-10
         .row.justify-content-center.align-items-center
           .col-lg-6.col-12.order-lg-1.order-2
-            p.mb-3 La correcta valoración de un producto turístico implica no solo entender sus características intrínsecas, como el destino, los servicios ofrecidos y la infraestructura disponible, sino también la forma en que estos elementos interactúan con las expectativas y necesidades de los turistas. Además, es fundamental considerar la alineación del producto con las tendencias globales y las expectativas de los consumidores, que evolucionan constantemente. Evaluar la viabilidad del producto también involucra un análisis de su capacidad para adaptarse a los cambios del mercado y su competencia, garantizando así su permanencia en el sector a largo plazo.
+            p.mb-4 La correcta valoración de un producto turístico implica no solo entender sus características intrínsecas, como el destino, los servicios ofrecidos y la infraestructura disponible, sino también la forma en que estos elementos interactúan con las expectativas y necesidades de los turistas. Además, es fundamental considerar la alineación del producto con las tendencias globales y las expectativas de los consumidores, que evolucionan constantemente. Evaluar la viabilidad del producto también involucra un análisis de su capacidad para adaptarse a los cambios del mercado y su competencia, garantizando así su permanencia en el sector a largo plazo.
             .cajon.cajon2.color-secundario.p-4
              p.mb-0 Este análisis profundo permite identificar fortalezas y debilidades, así como áreas de mejora que optimicen tanto la oferta como la experiencia del turista. De igual manera, permite descubrir oportunidades y prever posibles amenazas, lo que facilita la toma de decisiones informadas para su mejora continua.
 
-          .col-lg-6.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
+          .col-lg-6.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img-02.svg', alt='Imagen decorativa')
 
@@ -31,63 +31,63 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-03.svg' alt='AvatarTop')
           h4.text-center Identificación del producto turístico
           p.text-center Es fundamental definir con claridad el producto, ya sea un destino, servicio o combinación de ambos. Además, debe establecerse su propuesta de valor, destacando los atributos que lo hacen único o atractivo.
 
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-04.svg' alt='AvatarTop')
           h4.text-center Análisis del entorno
           p.text-center Se debe examinar el mercado objetivo y las tendencias del sector, identificando oportunidades y amenazas. También es necesario evaluar a la competencia directa e indirecta, así como el contexto socioeconómico del entorno.
 
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-05.svg' alt='AvatarTop')
           h4.text-center Evaluación de la demanda
           p.text-center Es importante analizar la demanda actual y potencial mediante estadísticas y patrones de comportamiento turistico. Asimismo, debe identificarse las preferencias, estacionalidad y segmentación del público.
         
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-06.svg' alt='AvatarTop')
           h4.text-center Análisis de factores internos
           p.text-center Debe revisarse la calidad y atractivo de los componentes del producto, tales como la infraestructura y los servicios. Además, se debe determinar la capacidad de innovación para mejorar la experiencia del turista.
 
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-07.svg' alt='AvatarTop')
           h4.text-center Impacto económico y financiero
           p.text-center Es necesario calcular la rentabilidad del producto, considerando ingresos y costos. También debe proyectarse la sostenibilidad financiera a largo plazo.
 
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-08.svg' alt='AvatarTop')
           h4.text-center Sostenibilidad ambiental y social
           p.text-center Se debe valorar el cumplimiento de prácticas responsables y su impacto en la comunidad local. Igualmente, es importante analizar los beneficios sociales, como el empleo y la inclusión.
 
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-09.svg' alt='AvatarTop')
           h4.text-center Satisfacción del cliente
           p.text-center Se recomienda realizar estudios sobre la experiencia del usuario para identificar posibles mejoras. También debe medirse la intención de recomendación (Net Promoter Score).
 
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-010.svg' alt='AvatarTop')
           h4.text-center Análisis FODA y <em>Benchmarking</em>
           p.text-center Es esencial identificar las fortalezas, debilidades, oportunidades y amenazas del producto. Además, se debe realizar una comparación con referentes del sector para incorporar mejores prácticas.
 
         .tarjeta.tarjeta--BG07.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema2/img-011.svg' alt='AvatarTop')
           h4.text-center Recomendaciones y plan de acción
@@ -103,9 +103,9 @@
     p.mb-5 La valoración de un producto turístico es un proceso clave para evaluar su calidad, relevancia y capacidad de satisfacer las expectativas de los turistas. Existen diferentes tipos de valoraciones del diseño de productos turísticos que pueden enfocarse en diversos aspectos. A continuación, se presentan algunos de estos tipos:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-10
+      .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 1.
+          h5 Tabla 2.
           span <i>Valoraciones del diseño de productos turísticos </i>
         .tabla-a.clstabla.color-acento-contenido.mb-5
           table
@@ -262,118 +262,116 @@
 
     p.mb-5 La evaluación de un producto turístico implica analizar su calidad, relevancia, rentabilidad y satisfacción del cliente. Este proceso es crucial para mejorar el servicio y garantizar el éxito del producto en el mercado. A continuación, se describen los pasos comunes para llevar a cabo esta evaluación:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-10
-        LineaTiempoE.color-acento-contenido.mb-5
-          .row(titulo="01")
-            .col-lg-2.mb-3.mb-lg-0.col-6
-              figure
-                img.img200(src='@/assets/curso/temas/tema2/icono-01.svg', alt='Imagen decorativa')
-            .col-lg-10.mb-4.mb-lg-0
-              h4 Definición de criterios de evaluación
-              ul.lista-ul
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Calidad del servicio:] incluye aspectos como la atención al cliente, la limpieza, la seguridad y la puntualidad.
-                
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Satisfacción del cliente:] se mide a través de encuestas, reseñas y comentarios de los visitantes.
+    LineaTiempoE.color-acento-contenido.mb-5(data-aos="zoom-in")
+      .row(titulo="01")
+        .col-lg-2.mb-4.mb-lg-0.col-4
+          figure
+            img.img200(src='@/assets/curso/temas/tema2/icono-01.svg', alt='Imagen decorativa')
+        .col-lg-10.mb-4.mb-lg-0
+          h4 Definición de criterios de evaluación
+          ul.lista-ul
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Calidad del servicio:] incluye aspectos como la atención al cliente, la limpieza, la seguridad y la puntualidad.
+            
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Satisfacción del cliente:] se mide a través de encuestas, reseñas y comentarios de los visitantes.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Accesibilidad:] evalúa la facilidad con la que los turistas pueden acceder al producto, considerando la infraestructura, el transporte y la ubicación.
-                
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Sostenibilidad:] verifica si el producto cumple con criterios de sostenibilidad medioambiental, económica y sociocultural.
-                
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Originalidad y autenticidad:] analiza si el producto ofrece una experiencia única, diferenciada de otros en el mercado.
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Accesibilidad:] evalúa la facilidad con la que los turistas pueden acceder al producto, considerando la infraestructura, el transporte y la ubicación.
+            
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Sostenibilidad:] verifica si el producto cumple con criterios de sostenibilidad medioambiental, económica y sociocultural.
+            
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Originalidad y autenticidad:] analiza si el producto ofrece una experiencia única, diferenciada de otros en el mercado.
 
-          .row(titulo="02")
-            .col-lg-2.mb-3.mb-lg-0.col-6
-              figure
-                img.img200(src='@/assets/curso/temas/tema2/icono-02.svg', alt='Imagen decorativa')
-            .col-lg-10.mb-4.mb-lg-0
-              h4 Recopilación de información
-              ul.lista-ul
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Encuestas de satisfacción:] preguntar a los turistas sobre su experiencia.
+      .row(titulo="02")
+        .col-lg-2.mb-4.mb-lg-0.col-4
+          figure
+            img.img200(src='@/assets/curso/temas/tema2/icono-02.svg', alt='Imagen decorativa')
+        .col-lg-10.mb-4.mb-lg-0
+          h4 Recopilación de información
+          ul.lista-ul
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Encuestas de satisfacción:] preguntar a los turistas sobre su experiencia.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Comentarios y reseñas online:] analizar las opiniones en plataformas como TripAdvisor, Google Reviews, entre otras.
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Comentarios y reseñas online:] analizar las opiniones en plataformas como TripAdvisor, Google Reviews, entre otras.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Observación directa:] supervisión del servicio en tiempo real por parte de expertos.
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Observación directa:] supervisión del servicio en tiempo real por parte de expertos.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Datos financieros:] evaluar la rentabilidad del producto, analizando el costo de operación frente a los ingresos.
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Datos financieros:] evaluar la rentabilidad del producto, analizando el costo de operación frente a los ingresos.
 
-          .row(titulo="03")
-            .col-lg-2.mb-3.mb-lg-0.col-6
-              figure
-                img.img200(src='@/assets/curso/temas/tema2/icono-03.svg', alt='Imagen decorativa')
-            .col-lg-10.mb-4.mb-lg-0
-              h4 Análisis de la competencia
-              ul.lista-ul
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Benchmarking:] comparar el producto con la competencia, evaluando precios, servicios y experiencias similares.
+      .row(titulo="03")
+        .col-lg-2.mb-4.mb-lg-0.col-4
+          figure
+            img.img200(src='@/assets/curso/temas/tema2/icono-03.svg', alt='Imagen decorativa')
+        .col-lg-10.mb-4.mb-lg-0
+          h4 Análisis de la competencia
+          ul.lista-ul
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Benchmarking:] comparar el producto con la competencia, evaluando precios, servicios y experiencias similares.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Análisis de tendencias:] verificar si el producto está alineado con las tendencias turísticas actuales y futuras.
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Análisis de tendencias:] verificar si el producto está alineado con las tendencias turísticas actuales y futuras.
 
-          .row(titulo="04")
-            .col-lg-2.mb-3.mb-lg-0.col-6
-              figure
-                img.img200(src='@/assets/curso/temas/tema2/icono-04.svg', alt='Imagen decorativa')
-            .col-lg-10.mb-4.mb-lg-0
-              h4 Medición del impacto económico
-              ul.lista-ul
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Contribución al destino:] evaluar cómo el producto contribuye a la economía local, incluyendo el empleo generado y los ingresos para los proveedores locales.
+      .row(titulo="04")
+        .col-lg-2.mb-4.mb-lg-0.col-4
+          figure
+            img.img200(src='@/assets/curso/temas/tema2/icono-04.svg', alt='Imagen decorativa')
+        .col-lg-10.mb-4.mb-lg-0
+          h4 Medición del impacto económico
+          ul.lista-ul
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Contribución al destino:] evaluar cómo el producto contribuye a la economía local, incluyendo el empleo generado y los ingresos para los proveedores locales.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Retorno de la inversión (ROI):] comparar el dinero invertido con los ingresos generados.
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Retorno de la inversión (ROI):] comparar el dinero invertido con los ingresos generados.
 
-          .row(titulo="05")
-            .col-lg-2.mb-3.mb-lg-0.col-6
-              figure
-                img.img200(src='@/assets/curso/temas/tema2/icono-05.svg', alt='Imagen decorativa')
-            .col-lg-10.mb-4.mb-lg-0
-              h4 Sostenibilidad y responsabilidad social
-              ul.lista-ul
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Impacto ambiental:] evaluar si el producto tiene un impacto positivo o negativo en el entorno natural.
+      .row(titulo="05")
+        .col-lg-2.mb-4.mb-lg-0.col-4
+          figure
+            img.img200(src='@/assets/curso/temas/tema2/icono-05.svg', alt='Imagen decorativa')
+        .col-lg-10.mb-4.mb-lg-0
+          h4 Sostenibilidad y responsabilidad social
+          ul.lista-ul
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Impacto ambiental:] evaluar si el producto tiene un impacto positivo o negativo en el entorno natural.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Responsabilidad social:] analizar cómo el producto afecta a la comunidad local, desde el punto de vista cultural y económico.
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Responsabilidad social:] analizar cómo el producto afecta a la comunidad local, desde el punto de vista cultural y económico.
 
-          .row(titulo="06")
-            .col-lg-2.mb-3.mb-lg-0.col-6
-              figure
-                img.img200(src='@/assets/curso/temas/tema2/icono-06.svg', alt='Imagen decorativa')
-            .col-lg-10.mb-4.mb-lg-0
-              h4 Retroalimentación y ajustes
-              ul.lista-ul
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Evaluación periódica:] repetir la evaluación a intervalos regulares para garantizar la mejora continua.
+      .row(titulo="06")
+        .col-lg-2.mb-4.mb-lg-0.col-4
+          figure
+            img.img200(src='@/assets/curso/temas/tema2/icono-06.svg', alt='Imagen decorativa')
+        .col-lg-10.mb-4.mb-lg-0
+          h4 Retroalimentación y ajustes
+          ul.lista-ul
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Evaluación periódica:] repetir la evaluación a intervalos regulares para garantizar la mejora continua.
 
-                li.mb-1 
-                  i.fas.fa-angle-right(style="color: #7D3A1B")
-                  p.mb-0 #[b Implementación de mejoras:] ajustar el producto en función de los resultados obtenidos, ya sea mejorando la experiencia del cliente, reduciendo costos o adaptando el producto a las tendencias emergentes. 
+            li.mb-1 
+              i.fas.fa-angle-right(style="color: #7D3A1B")
+              p.mb-0 #[b Implementación de mejoras:] ajustar el producto en función de los resultados obtenidos, ya sea mejorando la experiencia del cliente, reduciendo costos o adaptando el producto a las tendencias emergentes. 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12

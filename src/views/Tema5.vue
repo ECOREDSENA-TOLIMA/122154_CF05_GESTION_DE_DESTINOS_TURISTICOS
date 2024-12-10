@@ -8,14 +8,11 @@
       h1 La competitividad en el producto turístico desde las diferentes entidades
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12.col-md-10
-        .row.justify-content-center.align-items-center
-          .col-lg-6.col-12.order-lg-1.order-2
-            p.mb-3 La competitividad del turismo se potencia cuando estos tres actores trabajan de manera conjunta. La colaboración público-privada permite desarrollar proyectos de gran envergadura, mientras que la integración de las comunidades asegura que el desarrollo turístico respete las características locales y sea sostenible. Este enfoque integrado no solo mejora la percepción del destino entre los turistas, sino que también fortalece la economía local y promueve un desarrollo equilibrado, posicionando al turismo como una herramienta clave para el progreso social y económico en Colombia.
-
-          .col-lg-6.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema5/img-01.svg', alt='Imagen decorativa')
+      .col-lg-5.col-12.order-lg-1.order-2
+        p.mb-4 La competitividad del turismo se potencia cuando estos tres actores trabajan de manera conjunta. La colaboración público-privada permite desarrollar proyectos de gran envergadura, mientras que la integración de las comunidades asegura que el desarrollo turístico respete las características locales y sea sostenible. Este enfoque integrado no solo mejora la percepción del destino entre los turistas, sino que también fortalece la economía local y promueve un desarrollo equilibrado, posicionando al turismo como una herramienta clave para el progreso social y económico en Colombia.
+      .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+        figure
+          img(src='@/assets/curso/temas/tema5/img-01.svg', alt='Imagen decorativa')
 
     Separador
 
@@ -24,45 +21,21 @@
 
     p.mb-5 Las instituciones gubernamentales son fundamentales en la creación de un entorno regulado y propicio para el desarrollo turístico. Su influencia abarca:
 
-    .row.justify-content-center.mb-3(data-aos="zoom-in")
-      .col-lg-3.col-12.mb-3.d-lg-flex.d-none
-        figure
-          img(src='@/assets/curso/temas/tema5/img-02.svg', alt='Imagen decorativa')
-      .col-lg-9.col-12.mb-3
-        TabsA.color-acento-botones.mb-5
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Planificación estratégica")
-            p Diseñan planes de desarrollo turístico que identifican fortalezas y debilidades de los destinos, alineando los recursos con objetivos sostenibles y competitivos. En Colombia, planes como el Plan Sectorial de Turismo son ejemplos claros de esta acción.
+    TabsA.color-acento-botones.mb-5(data-aos="zoom-in")
+      .tarjeta.tarjeta--tabla1.p-4(titulo="Planificación estratégica")
+        p.mb-0 Diseñan planes de desarrollo turístico que identifican fortalezas y debilidades de los destinos, alineando los recursos con objetivos sostenibles y competitivos. En Colombia, planes como el Plan Sectorial de Turismo son ejemplos claros de esta acción.
+      .tarjeta.tarjeta--tabla1.p-4(titulo="Regulación y normatividad")
+        p.mb-0 Garantizan el cumplimiento de estándares de calidad, seguridad y sostenibilidad mediante normativas claras que beneficien tanto a los turistas como a las comunidades locales.
+      .tarjeta.tarjeta--tabla1.p-4(titulo="Fomento a la conectividad")
+        p.mb-0 Impulsan la construcción de carreteras, aeropuertos y vías de acceso, mejorando la conectividad interna y externa del destino, lo que incrementa su atractivo.
+      .tarjeta.tarjeta--tabla1.p-4(titulo="Promoción de alianzas estratégicas")
+        p.mb-0 Facilitan la coordinación entre diferentes actores, fomentando redes de colaboración para el desarrollo turístico integral.
+      .tarjeta.tarjeta--tabla1.p-4(titulo="Incentivos económicos")
+        p.mb-0 Proveen subsidios, préstamos o beneficios fiscales para proyectos que promuevan el turismo responsable y sostenible.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Regulación y normatividad")
-            p Garantizan el cumplimiento de estándares de calidad, seguridad y sostenibilidad mediante normativas claras que beneficien tanto a los turistas como a las comunidades locales.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-          
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Fomento a la conectividad")
-            p Impulsan la construcción de carreteras, aeropuertos y vías de acceso, mejorando la conectividad interna y externa del destino, lo que incrementa su atractivo.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Promoción de alianzas estratégicas")
-            p Facilitan la coordinación entre diferentes actores, fomentando redes de colaboración para el desarrollo turístico integral.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Incentivos económicos")
-            p Proveen subsidios, préstamos o beneficios fiscales para proyectos que promuevan el turismo responsable y sostenible.
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .cajon.cajon.color-primario.p-4
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-10
+        .cajon.color-primario.p-4
           p.mb-0 #[b Ejemplo:] en Colombia, Cartagena de Indias es un ejemplo claro de cómo las entidades públicas fortalecen la competitividad turística. Corpoturismo y el Ministerio de Comercio, Industria y Turismo han impulsado el Plan Maestro de Turismo, que combina la conservación del patrimonio histórico con mejoras en infraestructura, como la modernización del Aeropuerto Internacional Rafael Núñez. Además, programas como “Cartagena Sostenible” promueven prácticas responsables para preservar el entorno.
 
     Separador
@@ -72,7 +45,7 @@
 
     p.mb-5 El sector privado actúa como el motor que impulsa la competitividad del destino mediante la innovación, la calidad y la diversificación de la oferta turística. Estas entidades incluyen hoteles, agencias de viajes, restaurantes, operadores turísticos y otros actores del sector. Sus principales aportes son:
 
-    .row.justify-content-center.mb-3(data-aos="flip-up")
+    .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
@@ -119,28 +92,28 @@
 
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema5/img01.svg' alt='AvatarTop')
         h4.text-center Fortalecimiento del capital social
         p.text-center Impulsan la cohesión comunitaria mediante proyectos turísticos que involucran a diferentes grupos, como jóvenes, artesanos y líderes locales.
       
       .col-md-6.col-lg.tarjeta--tabla1.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema5/img02.svg' alt='AvatarTop')
         h4.text-center Preservación de la identidad cultural
         p.text-center Desarrollan actividades y festivales que destacan tradiciones locales, como en el caso del Carnaval de Barranquilla o las Fiestas de San Pacho en Quibdó, lo que mejora el atractivo del destino.
       
       .col-md-6.col-lg.tarjeta--tabla.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema5/img03.svg' alt='AvatarTop')
         h4.text-center Capacitación de la comunidad
         p.text-center Organizan talleres y programas para formar a los residentes como guías turísticos, artesanos o emprendedores en servicios relacionados con el turismo.
       
       .col-md-6.col-lg.tarjeta--tabla1.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-4
             img(src='@/assets/curso/temas/tema5/img04.svg' alt='AvatarTop')
         h4.text-center Desarrollo de circuitos turísticos rurales

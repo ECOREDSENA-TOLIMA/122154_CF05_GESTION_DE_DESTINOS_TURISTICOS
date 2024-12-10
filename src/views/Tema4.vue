@@ -24,7 +24,7 @@
     .row.justify-content-center.ali.mb-4(data-aos="flip-up")
       .tarjeta--container.row.mb-5
         .col-xl.col-md-6.tarjeta.color-primario.p-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6.col-md-6
               figure
                 img(src='@/assets/curso/temas/tema4/img-02.svg', alt='Imagen decorativa')
@@ -33,7 +33,7 @@
           p.text-center Máximo número de visitantes que pueden estar presentes físicamente en un área sin generar problemas.
 
         .col-xl.col-md-6.tarjeta.color-secundario.p-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6.col-md-6
               figure
                 img(src='@/assets/curso/temas/tema4/img-03.svg', alt='Imagen decorativa')
@@ -42,7 +42,7 @@
           p.text-center Ajusta la capacidad física considerando factores correctores, como condiciones climáticas o fragilidad del ecosistema.
 
         .col-xl.col-md-6.tarjeta.color-acento-contenido.p-5
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6.col-md-6
               figure
                 img(src='@/assets/curso/temas/tema4/img-04.svg', alt='Imagen decorativa')
@@ -55,7 +55,7 @@
     TabsC.color-acento-botones.mb-5(data-aos="flip-up")
       .py-3.py-md-4(titulo="CCF")
         .row.justify-content-center.p-4
-          .col-lg-4.col-10.order-lg-1.order-1.mb-lg-0.mb-4
+          .col-lg-4.col-8.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema4/img-05.png', alt='Imagen decorativa')
           .col-lg-8.order-lg-2.order-2
@@ -63,7 +63,7 @@
             br
             p.mb-0 CCF = A / U
             p.mb-0 Donde:
-            .tarjeta.tarjeta--blanca.p-4.mb-3
+            .tarjeta.tarjeta--blanca.p-4.mb-4
               ul.lista-ul
                 li.mb-0 
                   ul
@@ -82,7 +82,7 @@
 
       .py-3.py-md-4(titulo="CCR")
         .row.justify-content-center.p-4
-          .col-lg-4.col-10.order-lg-1.order-1.mb-lg-0.mb-4
+          .col-lg-4.col-8.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema4/img-06.png', alt='Imagen decorativa')
           .col-lg-8.order-lg-2.order-2
@@ -90,7 +90,7 @@
             br
             p.mb-0 CCR = CCF x (1 - ΣFi)
             p.mb-0 Donde:
-            .tarjeta.tarjeta--blanca.p-4.mb-3
+            .tarjeta.tarjeta--blanca.p-4.mb-4
               ul.lista-ul
                 li.mb-0 
                   ul
@@ -106,7 +106,7 @@
 
       .py-3.py-md-4(titulo="CCE")
         .row.justify-content-center.p-4
-          .col-lg-4.col-10.order-lg-1.order-1.mb-lg-0.mb-4
+          .col-lg-4.col-8.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema4/img-07.png', alt='Imagen decorativa')
           .col-lg-8.order-lg-2.order-2
@@ -114,7 +114,7 @@
             br
             p.mb-0 CCR = CCF x (1 - ΣFg)
             p.mb-0 Donde:
-            .tarjeta.tarjeta--blanca.p-4.mb-3
+            .tarjeta.tarjeta--blanca.p-4.mb-4
               ul.lista-ul
                 li.mb-0 
                   ul

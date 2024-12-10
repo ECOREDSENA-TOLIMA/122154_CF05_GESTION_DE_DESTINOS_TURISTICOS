@@ -24,20 +24,20 @@
     p.mb-5 La identificación y desarrollo de productos turísticos es un proceso estratégico que permite resaltar y valorar los recursos culturales, naturales y sociales de una región, impulsando el turismo de manera sostenible y significativa. Para lograrlo, se requiere de una serie de actividades que abarcan desde la investigación de mercado hasta la promoción y comercialización del destino:
 
     .row.justify-content-center.align-items-center(data-aos="flip-up")
-      .col-12.mb-3
+      .col-12.mb-4
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde")
           .row.justify-content-center.align-items-center.p-4(titulo="Investigación de mercado")
             .col-lg-6.order-lg-1.order-2
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Análisis de la demanda:] se realiza para identificar los intereses y preferencias de los turistas potenciales, tanto nacionales como internacionales.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Segmentación del mercado:] se define para identificar segmentos de mercado atractivos, tales como turismo de aventura, ecoturismo o turismo cultural.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Competencia:] se lleva a cabo un análisis de productos turísticos similares en la región y su éxito en el mercado.
 
@@ -48,11 +48,11 @@
           .row.justify-content-center.align-items-center.p-4(titulo="Inventario de recursos turísticos")
             .col-lg-6.order-lg-1.order-2
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Recursos naturales:] se incluyen elementos como montañas, ríos, parques naturales, playas (por ejemplo, el Parque Tayrona, la Sierra Nevada y el Amazonas) y otros accidentes geográficos.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Patrimonio Cultural:] comprende monumentos históricos, pueblos patrimoniales, festividades (por ejemplo, Cartagena, Villa de Leyva y Carnaval de Barranquilla), platos típicos que representan un atractivo turístico (como bandeja paisa, ajiaco y lechona) y expresiones culturales como tradiciones, música y bailes típicos (por ejemplo, cumbia, vallenato y joropo).
 
@@ -63,19 +63,19 @@
           .row.justify-content-center.align-items-center.p-4(titulo="Análisis del entorno")
             .col-lg-6.order-lg-1.order-2
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Contexto socioeconómico:] se evalúa si la infraestructura turística (transporte, alojamiento y servicios) es adecuada o si requiere mejoras.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Sostenibilidad:] se considera la capacidad de carga del destino para minimizar el impacto negativo del turismo.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Seguridad:] se analizan las condiciones de seguridad para los turistas en la región.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Políticas locales y nacionales:] se alinean los productos turísticos con las políticas de promoción de turismo del gobierno colombiano (por ejemplo, ProColombia).
 
@@ -86,11 +86,11 @@
           .row.justify-content-center.align-items-center.p-4(titulo="Talleres y encuentros con la comunidad local")
             .col-lg-6.order-lg-1.order-2
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Participación comunitaria:] involucra a actores locales, como la comunidad, autoridades y empresarios, para identificar recursos, ideas y visiones sobre el turismo.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Diagnóstico participativo:] la comunidad participa en la identificación de los atractivos más valiosos y en la definición de roles en el desarrollo del producto turístico.
 
@@ -101,15 +101,15 @@
           .row.justify-content-center.align-items-center.p-4(titulo="Desarrollo de experiencias turísticas")
             .col-lg-6.order-lg-1.order-2
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Diseño de rutas temáticas:] se crean recorridos o itinerarios que destacan aspectos específicos del destino (por ejemplo, la ruta cafetera, la ruta de la biodiversidad o la ruta de las leyendas).
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Identificación de experiencias únicas:] se definen actividades que ofrecen una experiencia auténtica, como turismo vivencial, interacción con pueblos indígenas o avistamiento de fauna.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Creación de paquetes turísticos:] se agrupan servicios como alojamiento, transporte y actividades coherentes con la experiencia turística deseada.
 
@@ -120,11 +120,11 @@
           .row.justify-content-center.align-items-center.p-4(titulo="Validación del producto turístico")
             .col-lg-6.order-lg-1.order-2
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Prototipos de productos:] se crean y prueban prototipos de experiencias diseñadas con pequeños grupos de turistas.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Retroalimentación:] se recogen las impresiones de los turistas para realizar ajustes y mejorar el producto.
 
@@ -135,11 +135,11 @@
           .row.justify-content-center.align-items-center.p-4(titulo="Promoción y comercialización")
             .col-lg-6.order-lg-1.order-2
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Creación de marca:] se desarrolla una identidad visual y narrativa que resalte los valores y características únicas del producto.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p.mb-0 #[b Canales de comercialización:] se establecen colaboraciones con agencias de viajes, plataformas de reserva en línea y promoción en ferias de turismo.
 
@@ -157,11 +157,11 @@
             .col-lg-10.col-12
               p #[b Ejemplos en Colombia:]
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.fas.fa-angle-right(style="color: #7D3A1B")
                   p.mb-0 #[b Eje Cafetero:] se identifica el café como eje central del producto turístico, complementado por la biodiversidad, las fincas tradicionales y experiencias culturales.
                 
-                li.mb-3 
+                li.mb-4 
                   i.fas.fa-angle-right(style="color: #7D3A1B")
                   p.mb-0 #[b Amazonas:] se enfoca en el ecoturismo, el turismo de aventura y la conservación del patrimonio indígena.
 
@@ -178,7 +178,7 @@
       .col-12.col-md-10.col-lg-10(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Factores y dimensión de turismo y sostenibilidad. Programa de la Naciones Unidas para el Medio Ambiente</i>
-        figure.mb-3
+        figure.mb-4
           img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema1/img-010.svg', alt='En la figura 1 se presenta un diagrama de sostenibilidad, mostrando tres dimensiones: medioambiental (eficacia de recursos, pureza medioambiental, diversidad), económico (viabilidad económica, prosperidad local), y social (calidad del empleo, equidad social, control social), con factores específicos en cada dimensión.')
           img.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img-010v2.svg', alt='En la figura 1 se presenta un diagrama de sostenibilidad, mostrando tres dimensiones: medioambiental (eficacia de recursos, pureza medioambiental, diversidad), económico (viabilidad económica, prosperidad local), y social (calidad del empleo, equidad social, control social), con factores específicos en cada dimensión.') 
           figcaption Nota . ResearchGate. (s.f.). Maximiliano E. Korstanje.
@@ -192,15 +192,15 @@
             .col-lg-7.order-lg-1.order-2
               h4 Conservación del medio ambiente
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Minimización del impacto ambiental:] se eligen recursos y actividades que generen el menor impacto posible en los ecosistemas, lo cual incluye el uso eficiente de energía y agua, además de una gestión adecuada de residuos.
                 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Uso de recursos naturales sostenibles:] se utilizan materiales locales, renovables y ecológicos en el desarrollo de infraestructuras y productos turísticos.
                 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Protección de la biodiversidad:] se diseñan actividades que respetan y protegen la flora y fauna locales, como tours de observación de fauna que sigan prácticas éticas o rutas de senderismo que no alteren los ecosistemas.
 
@@ -212,15 +212,15 @@
             .col-lg-7.order-lg-1.order-2
               h4 Beneficios sociales y económicos
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Integración de la comunidad local:] se involucra a la comunidad en el diseño y gestión del producto turístico, empleando a residentes como guías o promotores y adquiriendo productos locales.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Fomento de la economía local:] se promueve que el turismo beneficie directamente a la economía local mediante la compra de productos artesanales, el uso de servicios locales y la inversión en proyectos comunitarios.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Desarrollo de capacidades locales:] se ofrece capacitación a los miembros de la comunidad para que participen activamente en la cadena de valor del turismo, fortaleciendo habilidades en hospitalidad o gestión de pequeños negocios turísticos.
 
@@ -232,11 +232,11 @@
             .col-lg-7.order-lg-1.order-2
               h4 Conservación cultural
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Respeto y promoción de la cultura local:] se diseñan experiencias que respetan las tradiciones y valores culturales, evitando la explotación cultural. Esto puede incluir talleres de artesanía local o visitas a comunidades que permitan una interacción respetuosa con los turistas.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Autenticidad en la experiencia turística:]  se evita el turismo masivo que diluya las costumbres locales y se promueven experiencias que ofrezcan una inmersión auténtica en la cultura de la región.
 
@@ -248,11 +248,11 @@
             .col-lg-7.order-lg-1.order-2
               h4 Educación y sensibilización
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Concientización ambiental y cultural:] se diseñan experiencias que sensibilicen a los turistas sobre la importancia de la sostenibilidad mediante charlas, paneles informativos o actividades interactivas que fomenten la conservación del entorno y la cultura local.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Promoción del turismo responsable:] se promueven prácticas de turismo responsable, como el respeto a normas locales, la reducción del uso de plásticos y el apoyo a la conservación de sitios naturales y culturales visitados.
 
@@ -264,11 +264,11 @@
             .col-lg-7.order-lg-1.order-2
               h4 Viabilidad económica a largo plazo
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Eficiencia de recursos:] se asegura que el producto turístico sostenible sea financieramente viable a largo plazo, diseñando servicios rentables que también garanticen la longevidad de los recursos y la comunidad involucrada.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Diversificación de actividades:] se ofrecen actividades variadas para atraer a diferentes tipos de turistas durante todo el año, evitando la dependencia de temporadas altas que podrían sobrecargar los recursos naturales y humanos.
 
@@ -280,11 +280,11 @@
             .col-lg-7.order-lg-1.order-2
               h4 Gestión responsable del turismo
               ul.lista-ul
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Capacidad de carga:] se respeta la capacidad de carga del destino, controlando la cantidad de visitantes para evitar la sobreexplotación de recursos naturales y culturales.
 
-                li.mb-3 
+                li.mb-4 
                   i.lista-ul__vineta(style="font-size: 1.9rem")
                   p #[b Monitorización y mejora continua:] se implementa un sistema de evaluación continua del impacto del producto turístico en el entorno natural, la comunidad y la economía, realizando ajustes para optimizar la sostenibilidad del proyecto. 
 
@@ -303,7 +303,7 @@
       .col-12.col-md-10.col-lg-10(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Agenda 2030 para el Desarrollo Sostenible</i>
-        figure.mb-3
+        figure.mb-4
           img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema1/img-017.png', alt='En la figura 2 se presenta la Agenda 2030 para el Desarrollo Sostenible, que busca erradicar la pobreza, proteger el planeta y asegurar la prosperidad para todos, mediante 17 Objetivos de Desarrollo Sostenible (ODS). Estos objetivos abarcan áreas clave como la igualdad de género, la educación, la salud, el trabajo decente, el acceso a agua limpia, la acción por el clima y la paz, promoviendo un desarrollo económico, social y ambiental inclusivo y sostenible, con el compromiso de no dejar a nadie atrás.')
           img.d-block.d-lg-none(src='@/assets/curso/temas/tema1/img-017v2.svg', alt='En la figura 2 se presenta la Agenda 2030 para el Desarrollo Sostenible, que busca erradicar la pobreza, proteger el planeta y asegurar la prosperidad para todos, mediante 17 Objetivos de Desarrollo Sostenible (ODS). Estos objetivos abarcan áreas clave como la igualdad de género, la educación, la salud, el trabajo decente, el acceso a agua limpia, la acción por el clima y la paz, promoviendo un desarrollo económico, social y ambiental inclusivo y sostenible, con el compromiso de no dejar a nadie atrás.') 
           figcaption Nota. Tomado de Naciones Unidas (2015). Objetivos de Desarrollo Sostenible.
@@ -318,7 +318,7 @@
               h4 Igualdad de género
               p Promoción de la igualdad de oportunidades mediante la creación de empleos equitativos para hombres y mujeres, y fomentando el liderazgo femenino en la gestión turística. Además, se pueden ofrecer experiencias que sensibilicen sobre la equidad de género.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-01.svg', alt='Imagen decorativa')
 
@@ -327,7 +327,7 @@
               h4 Agua limpia y saneamiento
               p Fomentar el uso responsable del agua mediante prácticas como la reutilización de aguas grises y el uso de instalaciones eficientes, además de asegurar que las actividades turísticas no afecten negativamente las fuentes de agua locales.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-02.svg', alt='Imagen decorativa')
 
@@ -336,7 +336,7 @@
               h4 Energía asequible y no contaminante
               p Incorporar energías renovables, como paneles solares, y promover la eficiencia energética en los alojamientos turísticos, además de educar a los visitantes sobre el uso responsable de la energía.
 
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-03.svg', alt='Imagen decorativa')
 
@@ -345,7 +345,7 @@
               h4 Trabajo decente y crecimiento económico
               p Apoyar el turismo local a través de empleos decentes en la cadena de valor turística y brindar capacitación a los trabajadores para fomentar su desarrollo profesional y la inclusión.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-04.svg', alt='Imagen decorativa')
 
@@ -354,7 +354,7 @@
               h4 Ciudades y comunidades sostenibles
               p Desarrollar experiencias que respeten la cultura y el patrimonio local, e integrarse en iniciativas de movilidad sostenible en áreas urbanas.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-05.svg', alt='Imagen decorativa')
 
@@ -363,7 +363,7 @@
               h4 Producción y consumo responsables
               p Diseñar productos que minimicen el uso de recursos naturales y promuevan el reciclaje y la reducción de residuos, así como sensibilizar a los turistas sobre prácticas responsables.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-06.svg', alt='Imagen decorativa') 
 
@@ -372,7 +372,7 @@
               h4 Acción por el clima
               p Promover productos turísticos de baja emisión de carbono, como actividades de ecoturismo, y apoyar proyectos de restauración de ecosistemas y reforestación.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-07.svg', alt='Imagen decorativa') 
 
@@ -381,7 +381,7 @@
               h4 Vida submarina
               p Implementar normas de conservación marina en actividades relacionadas con el mar y fomentar el ecoturismo marino para concienciar sobre la biodiversidad marina.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-08.svg', alt='Imagen decorativa') 
 
@@ -390,7 +390,7 @@
               h4 Vida de ecosistemas terrestres
               p Diseñar experiencias que respeten la fauna y flora locales, fomentando la visita a áreas naturales protegidas y la educación sobre la importancia de los ecosistemas.
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-09.svg', alt='Imagen decorativa') 
 
@@ -399,7 +399,7 @@
               h4 Reducción de las desigualdades y fin de la pobreza
               p Incluir a comunidades vulnerables en la creación de productos turísticos, asegurando que obtengan beneficios económicos y fomentando la accesibilidad para todos. 
           
-            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
+            .col-lg-2.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-010.svg', alt='Imagen decorativa') 
 
@@ -415,7 +415,7 @@
     
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-10(data-aos="fade-down")
-        ImagenInfografica.color-acento-botones.mb-3.desktop
+        ImagenInfografica.color-acento-botones.mb-4.desktop
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img-018.svg', alt='Imagen decorativa')
@@ -452,12 +452,12 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
         .row.justify-content-center.align-items-center
-          .col-lg-6.col-8.col-md-6.mb-3
+          .col-lg-6.col-8.col-md-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img-019.svg', alt='Imagen decorativa')
           .col-lg-6.col-12
             p El diseño de estos productos incluye un análisis riguroso de mercado y una segmentación clara del perfil del turista, que abarca desde sus expectativas hasta sus necesidades y preferencias. Igualmente, la sostenibilidad ocupa un lugar central, tanto para garantizar la preservación de los recursos naturales y culturales como para beneficiar a las comunidades locales, las alianzas entre el sector público y privado resultan esenciales para optimizar la infraestructura, mejorar la señalización y el transporte, y aumentar la promoción tanto a nivel nacional como internacional.
-            .cajon.cajon.color-secundario.p-4.mb-3
+            .cajon.cajon.color-secundario.p-4.mb-4
               p.mb-0 #[b Los productos turísticos en Colombia siguen una lógica de circuitos que conectan destinos estratégicos y permiten explorar la autenticidad y diversidad de cada región. Estos circuitos no solo facilitan una experiencia integral y atractiva para el turista, sino que también promueven un turismo responsable.]
 
     p.mb-5 Al implementar prácticas sostenibles y respetuosas con el medio ambiente, se busca impactar positivamente a las comunidades locales, empoderándolas para que formen parte activa del desarrollo turístico. Así, Colombia se consolida como un destino versátil y vibrante, con un compromiso creciente hacia un turismo que respeta y preserva su riqueza natural y cultural para futuras generaciones .
@@ -468,7 +468,7 @@
           img(src="@/assets/curso/temas/tema1/icono-011.svg")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
+            .col.mb-4.mb-sm-0
               h4.mb-1 Producto Turístico
               p Para profundizar sobre el tema, es importante conocer la estructuración y diseño del producto turístico, que se presenta a continuación
             .col-sm-auto
@@ -648,7 +648,7 @@
     p.mb-5 La promoción de paquetes turísticos es un proceso integral que abarca desde la creación de estrategias publicitarias hasta el monitoreo de resultados. Estas estrategias buscan garantizar experiencias memorables para los turistas y posicionar los productos turísticos como opciones atractivas y sostenibles. A continuación, se presentan los elementos clave para desarrollar un plan de <em>marketing</em> exitoso:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-10
+      .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1. 
           span <i>Elementos clave para desarrollar un plan de marketing exitoso</i>
@@ -688,97 +688,97 @@
             .d-block(numero="1" titulo="Propuesta de valor atractiva") 
               .col-12.mb-4.mb-md-0
                 ul.lista-ul
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Destacar los beneficios únicos del paquete, como su exclusividad o personalización.
                 
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Resaltar características diferenciadoras, como destinos exóticos o actividades únicas.
 
             .d-block(numero="2" titulo="Uso de contenido visual") 
-              .col-12.mb-3.mb-md-0
+              .col-12.mb-4.mb-md-0
                 ul.lista-ul
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Crear videos promocionales y fotografías de alta calidad que muestren las experiencias incluidas.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Incorporar testimonios y reseñas de clientes satisfechos para generar confianza.
             
             .d-block(numero="3" titulo="<em>Marketing</em> digital") 
-              .col-12.mb-3.mb-md-0
+              .col-12.mb-4.mb-md-0
                 ul.lista-ul
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Optimizar la página web para atraer tráfico y facilitar reservas.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Utilizar redes sociales (Facebook o Instagram) y campañas de Google Ads para aumentar el alcance.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Implementar email <em>marketing</em> con ofertas personalizadas a través de newsletters.
             
             .d-block(numero="4" titulo="Colaboraciones estratégicas") 
-              .col-12.mb-3.mb-md-0
+              .col-12.mb-4.mb-md-0
                 ul.lista-ul
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Participar en plataformas de turismo como Expedia, Booking o TripAdvisor.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Trabajar con influencers y bloggers de viajes para dar visibilidad al paquete.
 
             .d-block(numero="5" titulo="Ofertas y promociones") 
-              .col-12.mb-3.mb-md-0
+              .col-12.mb-4.mb-md-0
                 ul.lista-ul
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Ofrecer descuentos por reservas anticipadas o para grupos grandes.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Crear promociones de temporada, como vacaciones de verano o Semana Santa.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Establecer programas de fidelización para premiar a los clientes recurrentes.
 
             .d-block(numero="6" titulo="Distribución del paquete") 
-              .col-12.mb-3.mb-md-0
+              .col-12.mb-4.mb-md-0
                 ul.lista-ul
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Promover el paquete a través de agencias de viajes físicas y online.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Colaborar con operadores turísticos para ampliar la oferta.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Facilitar la venta directa a través del sitio web oficial.          
               
             .d-block(numero="7" titulo="Seguimiento y retroalimentación") 
-              .col-12.mb-3.mb-md-0
+              .col-12.mb-4.mb-md-0
                 ul.lista-ul
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Solicitar reseñas para mejorar la reputación y atraer nuevos clientes.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Recoger opiniones de los turistas para ajustar y mejorar el paquete.
                   
-                  li.mb-3 
+                  li.mb-4 
                     i.fas.fa-angle-right(style="color: #7D3A1B")
                     p.mb-0 Realizar mejoras continuas basadas en las tendencias del mercado y las preferencias de los clientes. 
 
-        img.col-xl-5.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src='@/assets/curso/temas/tema1/img-027.svg', alt='')
+        img.col-xl-5.col-10.mb-4.mb-xl-0.mx-auto.order-1.order-xl-2(src='@/assets/curso/temas/tema1/img-027.svg', alt='')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
